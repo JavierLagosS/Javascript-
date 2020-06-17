@@ -1,0 +1,13 @@
+
+#tablero{
+    background: brown;
+    width: 250px; 
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap; 
+}
+.boton{
+    flex: 0 1 33.3%;
+    background-color: cornsilk;
+    border: 1px solid black;
+}

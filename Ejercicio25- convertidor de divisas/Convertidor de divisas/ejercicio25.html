@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta author="Javier Lagos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio25</title>
+      <!-- CSS only -->
+      <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"/>
+
+</head>
+<body>
+    <header class="container-fluid text-center">
+        <h1>Ejercicio25</h1>
+        <h2>Conversor de Divisas</h2>
+        <p>version beta 1.1 -- </p>
+        <p> disponible solo desde clp al resto de monedas</p>
+        <p>Boton de comprobacion manual desactivado</p>
+        <p></p>
+</header>
+<hr>
+<form id="f1" name="id">
+<section class="container text-center">
+    <h2>Cantidad a Convertir</h2>
+    <p id="mostrarValor"></p>
+     <input type="range" id="cantidad" min="0" max="100000" value="0" >
+</section> 
+
+<section class="container text-center">
+        <h2>Convertir de :</h2>
+
+      <input type="radio" id="ConversorDeMoneda" name="Moneda" value="clp" checked> 
+      <label for="clp" >Peso Chileno</label>
+ 
+
+
+    <input type="radio" id="ConversorDeMoneda1" name="Moneda" value="USD" disabled> 
+    <label for="USD">Dolar EstadoUnidense</label>  
+
+    <input type="radio" id="ConversorDeMoneda2" name="Moneda" value="Euro" disabled> 
+    <label for="Euro">Euro</label>
+
+    <input type="radio" id="ConversorDeMoneda3" name="Moneda" value="Yen" disabled> 
+    <label for="Yen">Yen</label>  
+ 
+
+    <input type="radio" id="ConversorDeMoneda4" name="Moneda" value="LibraEsterlina" disabled> 
+    <label for="LibraEsterlina">LibraEsterlina</label>  
+
+
+</section>
+<section class="container text-center">
+    <h2>Convertir A :</h2>
+
+  <input type="radio" id="ConversorAMoneda" name="MonedaA" value="clp"> 
+  <label for="clp">Peso Chileno</label>
+
+
+
+<input type="radio" id="ConversorAMoneda1" name="MonedaA" value="USD" checked> 
+<label for="USD">Dolar EstadoUnidense</label>  
+
+<input type="radio" id="ConversorAMoneda2" name="MonedaA" value="Euro"> 
+<label for="Euro">Euro</label>
+
+<input type="radio" id="ConversorAMoneda3" name="MonedaA" value="Yen"> 
+<label for="Yen">Yen</label>  
+
+<input type="radio" id="ConversorAMoneda4" name="MonedaA" value="LibraEsterlina"> 
+<label for="LibraEsterlina">LibraEsterlina</label>  
+
+</section>
+ <section class="container text-center">
+     <button class="btn btn-info" id="button" disabled>Comprobacion Manual</button>
+ </section> <br>
+</form>
+<section class="container text-center">
+<h2 name="Mostrar" id="Mostrar" onfocus=""></h2>
+</section>
+<script src="Main.js"></script>
+
+
+</body>
+</html>

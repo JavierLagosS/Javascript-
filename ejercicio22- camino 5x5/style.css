@@ -1,0 +1,18 @@
+section{
+    padding:100px ;
+}
+
+#tablero{
+    background: brown;
+    width: 250px; 
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+ 
+}
+.celda{
+    flex: 0 1 20%;
+    background-color: cornsilk;
+    border: 1px solid black;
+}

@@ -1,0 +1,15 @@
+.navbar{
+    background: $nav-bg;
+    .navbar-nav{
+            .nav-item{
+                margin-right: 40px;
+                .nav-link{           
+                    font-weight: 700;         
+                    color: $nav-color;
+                    &:hover{
+                        color: lighten($primary, 10);
+                    }
+                }
+            }
+    }
+}

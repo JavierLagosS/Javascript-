@@ -1,0 +1,19 @@
+
+// media None (auto) 	Extra small <576px 	Small ≥576px 	Medium ≥768px 	Large ≥992px 	Extra large ≥1200px
+@mixin entre($min, $max) {
+	@media (min-width: $min) and (max-width: $max) {
+		@content;
+	}
+}
+
+@mixin hasta($max) {
+	@media only screen and (max-width: $max) {
+		@content;
+	}
+}
+
+@mixin desde($min) {
+	@media (min-width: $min) {
+		@content;
+	}
+}

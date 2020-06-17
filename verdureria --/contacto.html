@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel2/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/vendor/owlcarousel2/owl.theme.default.min.css">
+    <!-- scroll reveal -->
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="assets/vendor/sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Verdureria Araucanía - Venta de verduras Online</title>
+</head>
+
+<body style="padding-top: 106px ;">
+    <main>
+        <header>
+            <section class="navegacion">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                   <div class="container">
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" class="img-fluid" style="width: 80px;"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto ">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tienda
+                        </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#"></a>
+                                    <a class="dropdown-item" href="frutas.html">Frutas</a>
+                                    <a class="dropdown-item" href="verduras.html">Verduras</a>
+                                    <a class="dropdown-item" href="frutos-secos.html">Frutos Secos</a>
+                                    <a class="dropdown-item" href="congelados.html">Congelados</a>
+                                    <div class="dropdown-divider"></div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link " href="contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="carrito.html"><i class="fas fa-shopping-cart mr-2"></i>Carrito</a>
+                            </li>
+                            <li class="nav-item dropdown">
+    <a class="nav-link " href="login.html"><i class="fas fa-user mr-2"></i>Cerrar Sessión</a>
+</li>
+                        </ul>
+                    
+                    </div>
+                   </div>
+                  </nav>
+            </section>
+            <section id="breadcrumb" style="background: #EAECF4;">
+                <nav aria-label="breadcrumb" class="container">
+                    <ol class="breadcrumb cona">
+                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+                    </ol>
+                </nav>
+            </section>
+        </header>
+        <!-- contacto-->
+        <div class="container p-2">
+            <div class="row">
+                <div class="col-md-8 p-4" id="formularioContenedor">
+                    <h2>Contactanos </h2>
+                    <p>En que podemos ayudarte?</p>
+                    <form>
+                        <div class="form-group">
+                          <label for="formGroupExampleInput">Nombre</label>
+                          <input required type="text" class="form-control" id="nombre" placeholder="Nombre" autocomplete=false>
+                          <div class="invalid-feedback">
+                            Ingrese un Nombre valido, min 5 caracteres , sin numeros ni carateres.
+                            </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input  required name="email" type="mail" class="form-control" id="email" placeholder="Ingrese correo electronico">
+                          <div class="invalid-feedback">
+                         Ingrese un Correo Valido
+                         </div>
+                        </div>
+                        <div class="form-group"> 
+                            <label for="contacto">Mensaje</label>
+                            <textarea required class="form-control" name="contacto" id="contacto" cols="100%" rows="5" placeholder="Mensaje"></textarea>
+                            <div class="invalid-feedback">
+                                Ingrese un texto valido.
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <button disabled type="button" id="btn" class="btn btn-primary" >Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 p-2 text-center " id="informacionContacto">
+                    <h4> Contactanos</h4>
+                    <p>Para cualquier pregunta:</p>
+                    <p>Email: <a href="">Soporte@tuempresa.com</a></p>
+                    <p>Whattapp: <a href=""> +569 123 456 78</a></p>
+                    <p>Facebook: <a href=""> Nuestro Perfil</a></p>
+                    <p>Instagram: <a href=""> Nuestro Instagram</a> </p>
+
+
+
+                    <br>
+                    <h4> Direccion </h4>
+                    <h6><strong>Temuco Chile</strong></h6>
+                    <p>Av siempre viva</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container p-4" id="mapaGoogle">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12451.354470072421!2d-72.5905431175672!3d-38.72151401204468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2db4220f8d86396f!2sMonumento%20Natural%20Cerro%20%C3%91ielol!5e0!3m2!1ses-419!2scl!4v1592274819872!5m2!1ses-419!2scl"
+                            width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Verdurería Araucanía</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid impedit autem accusamus distinctio?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Secciones</h4>
+                        <ul>
+                            <li>Inicio</li>
+                            <li>Tienda</li>
+                            <li>Quienes Somos</li>
+                            <li>Contacto</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Contactenos</h4>
+                        <ul>
+                            <li><i class="fas fa-phone mr-3"></i><span>+45 2 22 22 22</span> </li>
+                            <li><i class="fas fa-map mr-3"></i><span>La calle #0001, Temuco. Araucanía.</span> </li>
+                            <li><i class="fas fa-envelope mr-3"></i><span>correo@correo.cl</span> </li>
+                            <li><i class="fas fa-globe mr-3"></i><span>redes sociales</span>
+                                <a class="text-white" href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                                <a class="text-white" href="http://www.Facebook.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                <a class="text-white" href="https://wa.link/3yrrze" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/owlcarousel2/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="assets/vendor/sweetalert/sweetalert2.all.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

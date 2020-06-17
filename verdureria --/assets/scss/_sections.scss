@@ -1,0 +1,107 @@
+/*=========================================================================
+                              Mis Estilos                    
+=========================================================================*/
+
+header{
+    #menuCategorias{
+       #contenedorLogoCat{
+           @include hasta(991px){
+               display: none;
+           }
+        .logo-categoria{
+            img{
+                width: 170px;
+            }
+        }
+       }
+       #contenedorSeccionesCat{
+        @include hasta(991px){
+            margin: 0 auto;
+        }
+        .categoria{
+            @include desde(992px){
+                margin-right: 50px;
+            }
+            
+                .card{
+                    .card-body{
+                        img{
+                            width: 50px;
+                        }
+                    }
+                }
+           
+        }
+       }
+    }
+    
+    #breadcrumb{
+        nav{
+            .breadcrumb{
+                padding: 2.75rem 1rem !important;
+            }
+        }
+    }
+}
+
+#destacados, .productos{
+    article{
+        .card{
+            min-height: 460px;
+            padding: 5px 5px 20px 5px;
+            .card-body{
+                 .titulo{
+                    font-size: 18px !important;
+                    text-align: left;
+                    width: 80%;
+                 }
+               
+            }
+        }
+    }
+}
+.productos{
+    article{
+        .card{
+           .badge{
+               color:white;
+               margin: 15px;
+               font-size: 95%;
+           }
+           .badge.frutas{
+               background: $orange-red;
+               color: $white;
+           }
+           .badge.verduras{
+            background: $pistachio;
+            color: $white;
+        }
+        }
+    }
+}
+
+/*=========================================================================
+                              producto single                    
+=========================================================================*/
+#producto-detalle{
+    .precio{
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+}
+
+footer{
+    background: $red-salsa;
+    color: white;
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+}
+
+
+.carousel{
+    .carousel-inner{
+        max-height: 500px;
+    }
+}
